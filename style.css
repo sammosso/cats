@@ -1,0 +1,207 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;    
+    font-family: helvetica;
+    line-height: 1.5; 
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Kalam";
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+lh {
+    font-family: "Kalam";
+    font-size: 25px;
+}
+
+li {  
+    font-family: helvetica;
+    line-height: 1.5; 
+    list-style-type: none;
+}
+
+/*------------------------------------NAVBAR/FOOTER CSS-----------------------------------*/
+
+nav {
+    text-align: center;
+    padding: 25px;
+    width: full-width;
+    height: 50px;
+    background-image: url("images/cat-background.jpg");
+}
+
+.navlink {
+    font-family: helvetica;
+    color: white;
+    display: inline;
+    padding: 25px;
+}
+
+#navbar > li > a:link, #navbar > li > a:visited {
+    background-color: #000000;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navbar > li > a:hover {
+    background-color: #c7c7c7;
+    color: #000000;
+}
+
+#navbar > li > a:active {
+    background-color: white;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#sublinks {
+    text-decoration: none; 
+    color: rgb(59, 59, 59); 
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    background-color: #c7c7c7;
+}
+
+.footer-margin {
+    margin-bottom: 60px;
+}
+
+/*------------------------------------HOMEPAGE CSS-----------------------------------*/
+
+.welcome-text {
+    position: relative;
+    text-align: center;
+}
+
+.center {
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.logo {
+    max-width: 100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Centered text */
+.title {
+    font-family: "Kalam";
+    font-size: 5rem;
+    color:#FBE5D6;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 21px #000000;
+}
+
+.subtitle {
+    width: 400px;
+    font-family: "Helvetica";
+    font-weight: bolder;
+    font-size: 1 rem;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 5px 5px 10px #000000;
+}
+
+/*------------------------------------ABOUT PAGE CSS-----------------------------------*/
+.breeds {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;  
+}
+
+.breeds-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.breeds-col{
+    flex-flow: column;
+}
+
+/*------------------------------------CARE PAGE CSS-----------------------------------*/
+.supplies {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;  
+}
+
+.supplies-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.supplies-col{
+    flex-flow: column;
+}
+
+input[type="checkbox"] { 
+    margin-right: 20px; 
+}
+
+/*------------------------------------CAT PICS PAGE CSS-----------------------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other - 2 columns for images + 1 for white space */
+.column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 25px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+ 
